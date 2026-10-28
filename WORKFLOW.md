@@ -23,7 +23,7 @@ From a fresh Kali install to a submitted report. Each phase feeds the next.
 
 ```shell
 sudo apt update && sudo apt full-upgrade -y
-git clone https://github.com/<you>/bug-bounty-toolkit ~/tools/bug-bounty-toolkit
+git clone https://github.com/ColeF88GD/bug-bounty-toolkit ~/tools/bug-bounty-toolkit
 cd ~/tools/bug-bounty-toolkit
 bash scripts/install-bugbounty-tools.sh          # installs all tools, 15–30 min
 ln -sf "$PWD/scripts/recon.sh" ~/.local/bin/recon
