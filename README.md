@@ -5,7 +5,7 @@ My Kali setup for bug bounty and web pentesting: one script to install 37 tools,
 ## Quick start
 
 ```shell
-git clone https://github.com/<you>/bug-bounty-toolkit ~/tools/bug-bounty-toolkit
+git clone https://github.com/ColeF88GD/bug-bounty-toolkit ~/tools/bug-bounty-toolkit
 cd ~/tools/bug-bounty-toolkit
 bash scripts/install-bugbounty-tools.sh        # 15–30 min, safe to re-run
 ln -sf "$PWD/scripts/recon.sh" ~/.local/bin/recon
