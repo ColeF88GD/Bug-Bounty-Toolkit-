@@ -1,0 +1,18 @@
+# Out-of-scope list for recon.sh -x
+# One host or regex per line (case-insensitive). Lines starting with # are ignored.
+# ^ anchors to the start of the hostname, \. is a literal dot.
+
+# exact subdomains
+^blog\.target\.com$
+^status\.target\.com$
+
+# anything starting with these
+^admin\.
+^corp\.
+
+# anything containing these
+staging
+-internal
+
+# third-party hosted
+zendesk
